@@ -1,17 +1,15 @@
 public class OverloadExample {
 
-    // int version
+    
     public static int max(int a, int b) {
         return (a > b) ? a : b;
     }.java
 	
-
-    // double version
+    
     public static double max(double a, double b) {
         return (a > b) ? a : b;
     }
 
-    // 3 عدد double
     public static double max(double a, double b, double c) {
         return max(max(a, b), c);
     }
